@@ -13,6 +13,7 @@ export default class ReviewsDAO {
     } catch (e) {
       console.error(`Unable to establish collection handles in userDAO: ${e}`)
     }
+
   }
 
   static async addReview(restaurantId, user, review, date) {
