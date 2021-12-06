@@ -1,7 +1,9 @@
 ## MERN STACK TESTER APPLICATION ##
 
-- Devloped the backend of the application
-- Started by setting up express 
+- Developed the backend of the application
+- Had to set up MongoDB and register first
+- Once registration was completed I followed the steps below to initiate teh backend of the Web Application.
+    {Will need to update this file later}
 
 Terminal Commands
 1. Mkdir "File" (Name the file whatever you choose) 
@@ -32,7 +34,7 @@ app.use("*", (req, res) => res.status(404).json({error: "not found}"}) )
 	2. RESTREVIEWS_DB_URI=mongodb+srv://hassan:8002@cluster0.bi74v.mongodb.net/sample_restaurants?retryWrites=true&w=majority
 	3. RESTREVIEWS_NS=sample_restaurants
 	4. PORT=5000
-    
+
 2. Create New File index.js
 	1. import  app 
 	2. Import Mongodb
