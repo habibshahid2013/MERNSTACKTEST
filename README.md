@@ -251,3 +251,5 @@ export default class RestaurantsController {
   }
 }
 ```
+Stopped on 57:22
+https://www.youtube.com/watch?v=mrHNSanmqQ4&t=2144s
